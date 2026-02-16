@@ -1,0 +1,67 @@
+[
+  {
+    "id": "6035bb72-daee-441c-a4e9-351d13fb9334",
+    "title": "Cuaderno rayado A4",
+    "description": "Cuaderno escolar de 80 hojas rayadas",
+    "code": "CUAD-A4-001",
+    "price": 2500,
+    "status": true,
+    "stock": 60,
+    "category": "Cuadernos",
+    "thumbnails": [
+      "img/cuaderno-rayado.jpg"
+    ]
+  },
+  {
+    "id": "b6f43536-0917-4f19-83ec-634869967725",
+    "title": "Caja de lápices de colores",
+    "description": "Set de 12 lápices de colores para dibujo y escritura",
+    "code": "LAP-COLORES-012",
+    "price": 2200,
+    "status": true,
+    "stock": 100,
+    "category": "Útiles escolares",
+    "thumbnails": [
+      "img/lapices-colores.jpg"
+    ]
+  },
+  {
+    "id": "c47be8c3-5b60-421d-94e2-01a1db25316e",
+    "title": "Cartuchera doble cierre",
+    "description": "Cartuchera con dos compartimentos, material resistente",
+    "code": "CART-002",
+    "price": 3200,
+    "status": true,
+    "stock": 40,
+    "category": "Cartucheras",
+    "thumbnails": [
+      "img/cartuchera-doble.jpg"
+    ]
+  },
+  {
+    "id": "c7158f13-a186-4a45-b280-405a038f94a8",
+    "title": "Regla plástica 30 cm",
+    "description": "Regla transparente de 30 cm para uso escolar",
+    "code": "REGLA-030",
+    "price": 600,
+    "status": true,
+    "stock": 200,
+    "category": "Instrumentos de medición",
+    "thumbnails": [
+      "img/regla-30cm.jpg"
+    ]
+  },
+  {
+    "id": "19960184-22e7-469d-b6fb-e1a71ed28888",
+    "title": "Mochila escolar básica",
+    "description": "Mochila resistente con dos compartimentos, ideal para primaria",
+    "code": "MOCH-001",
+    "price": 8500,
+    "status": true,
+    "stock": 20,
+    "category": "Mochilas",
+    "thumbnails": [
+      "img/mochila-basica.jpg"
+    ]
+  }
+]

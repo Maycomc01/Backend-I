@@ -1,0 +1,224 @@
+{
+  "info": {
+    "_postman_id": "25c723c1-530b-4119-942b-152d22042f50",
+    "name": "Backend I",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "44932557",
+    "_collection_link": "https://go.postman.co/collection/44932557-25c723c1-530b-4119-942b-152d22042f50?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "se consulta el listado de productos",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "se consulta por el id del producto",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/products/6035bb72-daee-441c-a4e9-351d13fb9334",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "products",
+            "6035bb72-daee-441c-a4e9-351d13fb9334"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "actualizacion de producto",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"price\": 2500,\r\n    \"stock\": 60\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/products/6035bb72-daee-441c-a4e9-351d13fb9334",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "products",
+            "6035bb72-daee-441c-a4e9-351d13fb9334"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "crear un carrito vacio",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/carts",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "carts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Se elimina un producto por id",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/products/aad5603d-7b94-4511-a90f-1d6a2c6e59f3",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "products",
+            "aad5603d-7b94-4511-a90f-1d6a2c6e59f3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "se muestra el carrito por ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/carts/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "carts",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "se agrega un producto al carrito 1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/carts/1/product/c7158f13-a186-4a45-b280-405a038f94a8",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "carts",
+            "1",
+            "product",
+            "c7158f13-a186-4a45-b280-405a038f94a8"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "se crea un producto",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Mochila escolar básica\",\r\n  \"description\": \"Mochila resistente con dos compartimentos, ideal para primaria\",\r\n  \"code\": \"MOCH-001\",\r\n  \"price\": 8500,\r\n  \"status\": true,\r\n  \"stock\": 20,\r\n  \"category\": \"Mochilas\",\r\n  \"thumbnails\": [\"img/mochila-basica.jpg\"]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
