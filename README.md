@@ -1,3 +1,5 @@
+## BACKEND I
+
 API desarrollada en **Node.js + Express** para gestionar productos y carritos de compra de la tienda *JuanitaLibreria*, especializada en artículos escolares.
 
 ## 🚀 Funcionalidades
